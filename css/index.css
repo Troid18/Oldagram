@@ -49,14 +49,16 @@ address {
 
 
 .container {
-    margin: 0 auto;
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 40px;
     width: 375px;
 }
 
 .icons {
     display: flex;
     /* border: 1px solid; */
-    margin-top: 10px;
+    margin-top: 5px;
     width: 120px;
     justify-content: space-between;
 }
@@ -66,8 +68,10 @@ address {
     cursor: pointer;
 }
 
-#heart:hover,
-#heart:active,
-#heart:focus {
-    
+.likes {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
 }
